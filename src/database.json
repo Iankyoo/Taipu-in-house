@@ -1,0 +1,277 @@
+[
+    {
+    "nome": "Napolitana",
+    "preco": 96.90,
+    "tipo": "Pizza",
+    "id": 1
+},
+{
+    "nome": "Marguerita",
+    "preco": 98.90,
+    "tipo": "Pizza",
+    "id": 2
+},
+{
+    "nome": "Nordestina",
+    "preco": 138.90,
+    "tipo": "Pizza",
+    "id": 3
+},
+{
+    "nome": "Peito de peru",
+    "preco": 128.90,
+    "tipo": "Pizza",
+    "id": 4
+},
+{
+    "nome": "Portuguesa",
+    "preco": 132.90,
+    "tipo": "Pizza",
+    "id": 5
+},
+{  
+    "nome": "Portuguesa Especial",
+    "preco": 138.90,
+    "tipo": "Pizza",
+    "id": 6
+},
+{
+    "nome": "Palmito",
+    "preco": 112.90,
+    "tipo": "Pizza",
+    "id": 7
+},
+{
+    "nome": "Palmito com tomate seco",
+    "preco": 122.90,
+    "tipo": "Pizza",
+    "id": 8
+},
+{
+    "nome": "Atum",
+    "preco": 126.90,
+    "tipo": "Pizza",
+    "id": 9
+},
+{
+    "nome": "Calabresa Com Catupiry",
+    "preco": 122.90,
+    "tipo": "Pizza",
+    "id": 10
+},{
+    "nome": "Calabresa",
+    "preco": 112.90,
+    "tipo": "Pizza",
+    "id": 11
+},
+{
+    "nome": "Carne do Sol",
+    "preco": 132.90,
+    "tipo": "Pizza",
+    "id": 12
+},
+{
+    "nome": "Filé Mignon",
+    "preco": 139.90,
+    "tipo": "Pizza",
+    "id": 13
+},
+{
+    "nome": "Frango",
+    "preco": 118.90,
+    "tipo": "Pizza",
+    "id": 14
+},
+{
+    "nome": "4 Queijos",
+    "preco": 122.90,
+    "tipo": "Pizza",
+    "id": 15
+},
+{
+    "nome": "Brócolis", 
+    "preco": 128.90,
+    "tipo": "Pizza",
+    "id": 16
+},
+{
+    "nome": "Goiabada",
+    "preco": 74.90,
+    "tipo": "Pizza Doce",
+    "id": 17
+},
+{
+    "nome": "Nutella",
+    "preco": 99.90,
+    "tipo": "Pizza Doce",
+    "id": 18
+},
+{
+    "nome": "Doce de Leite",
+    "preco": 98.90,
+    "tipo": "Pizza Doce",
+    "id": 19
+},
+{
+    "nome": "Brigadeiro",
+    "preco": 98.90,
+    "tipo": "Pizza Doce",
+    "id": 20
+},
+{
+    "nome": "File Mignon",
+    "preco": 69.00,
+    "tipo": "Crepe",
+    "id": 21
+},
+{
+    "nome": "Strogonoff de Frango",
+    "preco": 58.00,
+    "tipo": "Crepe",
+    "id": 22
+},
+{
+    "nome": "Peito de Peru",
+    "preco": 62.00,
+    "tipo": "Crepe",
+    "id": 23
+},
+{
+    "nome": "Mexicano",
+    "preco": 58.00,
+    "tipo": "Crepe",
+    "id": 24
+},
+{
+    "nome": "Quatro Queijos",
+    "preco": 52.00,
+    "tipo": "Crepe",
+    "id": 25
+},
+{
+    "nome": "Calabresa acebolada e ovo",
+    "preco": 58.00,
+    "tipo": "Crepe",
+    "id": 26
+},
+{
+    "nome": "Carne do Sol com banana da terra",
+    "preco": 62.00,
+    "tipo": "Crepe",
+    "id": 27
+},
+{
+    "nome": "Nutella",
+    "preco": 55.00,
+    "tipo": "Crepe Doce",
+    "id": 28
+},
+{
+    "nome": "Brigadeiro",
+    "preco": 49.00,
+    "tipo": "Crepe Doce",
+    "id": 29
+},
+{
+    "nome": "Doce de Leite com paçoca",
+    "preco": 52.00,
+    "tipo": "Crepe Doce",
+    "id": 30
+},
+{
+    "nome": "Banoffee",
+    "preco": 52.00,
+    "tipo": "Crepe Doce",
+    "id": 31
+},
+{
+    "nome": "Romeu e Julieta",
+    "preco": 39.00,
+    "tipo": "Crepe Doce",
+    "id": 32
+},
+{
+    "nome": "Banana com canela",
+    "preco": 36.00,
+    "tipo": "Crepe Doce",
+    "id": 33
+},
+{
+    "nome": "Beijinho",
+    "preco": 49.00,
+    "tipo": "Crepe Doce",
+    "id": 34
+},
+{
+    "nome": "Filé Mignon á Parmegiana",
+    "preco": 89.00,
+    "tipo": "Prato",
+    "id": 35
+},
+{
+    "nome": "Filé Mignon ao creme de Palmito",
+    "preco": 75.00,
+    "tipo": "Prato",
+    "id": 36
+},
+{
+    "nome": "Iscas Filé Mignon ao molho gorgonzola",
+    "preco": 79.00,
+    "tipo": "Prato",
+    "id": 37
+},
+{
+    "nome": "Filé Mignon com Fritas",
+    "preco": 72.00,
+    "tipo": "Prato",
+    "id": 38
+},
+{
+    "nome": "Spaghetti á bolonhesa",
+    "preco": 62.00,
+    "tipo": "Prato",
+    "id": 39
+},
+{
+    "nome": "Filé de Frango com Fritas",
+    "preco": 65.00,
+    "tipo": "Prato",
+    "id": 40
+},
+{
+    "nome": "Strogonoff de Filé Mignon",
+    "preco": 75.00,
+    "tipo": "Prato",
+    "id": 41
+},
+{
+    "nome": "Suco da polpa",
+    "preco": 16.00,
+    "tipo": "Suco",
+    "id": 42
+},
+{
+    "nome": "Refrigerante Lata",
+    "preco": 10.00,
+    "tipo": "Refrigerante",
+    "id": 43
+},
+{
+    "nome": "Água Mineral",
+    "preco": 6.00,
+    "tipo": "Água",
+    "id": 44
+},
+{
+    "nome": "Água com gás",
+    "preco": 10.00,
+    "tipo": "Água",
+    "id": 45
+}, 
+{
+    "nome": "Sucos da Fruta",
+    "preco": 22.00,
+    "tipo": "Suco",
+    "id": 46
+}
+]

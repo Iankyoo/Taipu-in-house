@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Sistema Pizzaria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="layout-container">
+        <section class="menu-section">
+            <div class="top-bar">
+                <input type="text" id="busca" class="search-input" placeholder="Buscar item...">
+                <button id="btn-meio" class="btn-toggle" onclick="toggleModoMeio()">🌗 Meio a Meio</button>
+            </div>
+            
+            <div id="aviso-meio" class="alert-box">
+                1ª Metade: <span id="nome-primeira">...</span>. <br>
+                <small>Escolha a 2ª metade.</small>
+            </div>
+
+            <div id="menu-area" class="scroll-area">
+                </div>
+        </section>
+
+        <section class="comanda-section">
+            <div class="mobile-drawer-header">
+                <span>Seu Pedido</span>
+                <button class="btn-close-drawer" onclick="fecharDrawerComHistorico()">✕</button>
+            </div>
+
+            <div class="comanda-header">
+                <h2>TAIPU IN HOUSE</h2>
+                <div>----------------</div>
+                <div style="font-weight: bold; margin: 5px 0;">PEDIDO #<span id="numero-pedido">NOVO</span></div>
+                <small id="data-hora">--/--/-- --:--</small>
+            </div>
+            
+            <ul id="lista-pedidos" class="lista-scroll">
+                </ul>
+
+            <div class="footer-totais">
+                <div class="row">
+                    <span>Subtotal:</span>
+                    <span id="val-subtotal">R$ 0,00</span>
+                </div>
+                <div class="row">
+                    <label style="display: flex; align-items: center; cursor: pointer;">
+                        <input type="checkbox" id="chkServico" onchange="renderizarComandaDOM()" style="margin-right: 5px;"> 
+                        +10% (Serviço)
+                    </label>
+                    <span id="val-servico">R$ 0,00</span>
+                </div>
+                <div class="row row-total">
+                    <span>Total:</span>
+                    <span id="val-total">R$ 0,00</span>
+                </div>
+
+                <button class="btn-imprimir-cozinha" onclick="imprimirCozinha()">
+                    🧑‍🍳 Imprimir para Cozinha
+                </button>
+
+                <button class="btn-imprimir" onclick="window.print()">
+                    🖨️ Imprimir Cupom (Cliente)
+                </button>
+
+                <button class="btn-limpar" onclick="limparMesa()">
+                    Fechar Conta / Limpar
+                </button>
+            </div>
+        </section>
+    </div>
+
+    <div id="drawer-overlay" class="drawer-overlay" onclick="fecharDrawerComHistorico()"></div>
+    <button id="btn-mobile-cart" class="fab-cart" onclick="toggleDrawer()">
+        🛒 Ver Pedido <span id="fab-total">R$ 0,00</span>
+    </button>
+
+    <script src="app.js"></script>
+</body>
+</html>
