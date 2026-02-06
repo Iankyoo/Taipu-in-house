@@ -50,6 +50,7 @@ O projeto segue uma arquitetura MVC simplificada utilizando JavaScript em ambas 
 │
 └── INICIAR_SISTEMA.bat  # Script de inicialização automática (Windows)
 
+
 🚀 Como Executar
 Pré-requisitos
 Node.js instalado.
